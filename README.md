@@ -68,3 +68,20 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [React Router Documentation](https://reactrouter.com/) 
+
+Additional implemented files for this solution:
+
+- `src/context/ThemeContext.jsx` - theme provider for light/dark mode
+- `src/components/Navbar.jsx`, `src/components/Footer.jsx`, `src/components/Card.jsx` - UI components
+- `src/pages/TasksPage.jsx`, `src/pages/PostsPage.jsx` - routed pages
+- `src/main.jsx`, `index.html`, `tailwind.config.cjs`, `postcss.config.cjs`, `package.json` - project entry and config
+
+Manual test checklist
+1. Install dependencies: `npm install`
+2. Start dev server: `npm run dev`
+3. Open http://localhost:5173
+4. Verify:
+   - Navbar appears with theme toggle button
+   - `/tasks` shows Task Manager where you can add, complete, delete, and filter tasks
+   - `/posts` fetches posts from JSONPlaceholder, supports search and paging
+   - Theme toggles between light and dark and persists after refresh
