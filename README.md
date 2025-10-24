@@ -60,7 +60,7 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 2. Implement proper state management with hooks
 3. Integrate with at least one external API
 4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+5. Document your implementation and features
 
 ## Resources
 

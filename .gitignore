@@ -1,74 +1,53 @@
-# Node modules
-/node_modules/
-
-# Build output
-/dist/
-
-# Environment variables
-.env
-.env.*
-
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
-# Testing
-/coverage/
-
-# Vite cache
-.vite/
-
-# System files
-.DS_Store
-Thumbs.db
+# Dependencies
+node_modules
+dist
+dist-ssr
+*.local
 
 # Editor directories and files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# OS generated files
-*.swp
+# Environment variables
+.env
+.env.*
+!.env.example
 
-# Optional npm cache
-.npm/
+# Build output
+/dist/
+/build/
 
-# Misc
-*.tgz
+# Vite
+.vite/
+*.timestamp-*.mjs
+
+# Testing
+/coverage
+/cypress/videos/
+/cypress/screenshots/
+
+# Cache
 .cache/
-
-# Vercel
-.vercel/
-
-# Local env overrides (IDE specific)
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Storybook
-.storybook/
-
-# React Native
-.expo/
-
-# Coverage reports
-coverage/
-
-# Jest cache
-jest-cache/
-
-# ESLint cache
+.temp/
 .eslintcache
 
-# Parcel cache
-.cache
-.parcel-cache
-
-# SASS cache
-.sass-cache
+# Vercel
+.vercel
 
 # Lockfiles should be committed (do not ignore): package-lock.json, yarn.lock, pnpm-lock.yaml
