@@ -46,8 +46,3 @@ dist-ssr
 .cache/
 .temp/
 .eslintcache
-
-# Vercel
-.vercel
-
-# Lockfiles should be committed (do not ignore): package-lock.json, yarn.lock, pnpm-lock.yaml
