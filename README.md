@@ -62,21 +62,33 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 4. Style your application with Tailwind CSS
 5. Document your implementation and features
 
-## Resources
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+## Project Deployment URL
+https://splendorous-zabaione-65ec21.netlify.app/
 
-Additional implemented files for this solution:
+
+## Features
+
+- Tasks
+   - Add new tasks
+   - Mark tasks as completed
+   - Delete tasks
+   - Filter tasks (All, Active, Completed)
+
+- Posts
+ -10 Posts relating to technology
+
+ View Modes: Toggle between light and dark themes
+
+
+## Additional implemented files for this solution:
 
 - `src/context/ThemeContext.jsx` - theme provider for light/dark mode
 - `src/components/Navbar.jsx`, `src/components/Footer.jsx`, `src/components/Card.jsx` - UI components
 - `src/pages/TasksPage.jsx`, `src/pages/PostsPage.jsx` - routed pages
 - `src/main.jsx`, `index.html`, `tailwind.config.cjs`, `postcss.config.cjs`, `package.json` - project entry and config
 
-Manual test checklist
+## Manual test checklist:
 1. Install dependencies: `npm install`
 2. Start dev server: `npm run dev`
 3. Open http://localhost:5173
@@ -85,3 +97,18 @@ Manual test checklist
    - `/tasks` shows Task Manager where you can add, complete, delete, and filter tasks
    - `/posts` fetches posts from JSONPlaceholder, supports search and paging
    - Theme toggles between light and dark and persists after refresh
+
+## Screenshots of Somtech Task Manager Application
+![alt text](<Deployed screenshot-dark.png>)
+![alt text](<Deployed screenshot.png>)
+![alt text](<localhost screenshot1.png>)
+![alt text](<localhost screenshot2.png>)
+![alt text](<localhost screenshot3.png>)
+
+
+## Resources
+
+- [React Documentation](https://react.dev/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Vite Documentation](https://vitejs.dev/guide/)
+- [React Router Documentation](https://reactrouter.com/) 
